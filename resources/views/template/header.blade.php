@@ -235,7 +235,7 @@
                             <h3>Customer Service</h3>
                         </div>
                         <ul>
-                            <li><a href="{{route()}}">My account</a></li>
+                            <li><a href="#">My account</a></li>
                             <li><a href="#">Ordr History</a></li>
                             <li><a href="#">Wish List</a></li>
                             <li><a href="#">Newsletter</a></li>
