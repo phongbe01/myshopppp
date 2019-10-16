@@ -11,7 +11,7 @@
                         <div class="l_product_item">
                             <div class="l_p_img">
                                 <a href="{{route('products.show',$shirt->id)}}">
-                                    <img class="img-fluid" src="{{asset('storage/'.$shirt->image)}}" alt="" >
+                                    <img class="img-fluid" src="{{asset('img/'.$shirt->image)}}" alt="" >
                                 </a>
                             </div>
                             <div class="l_p_text">
