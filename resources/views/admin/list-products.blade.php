@@ -17,7 +17,7 @@
                         <td class="">{{++$key}}</td>
                         <td>
                             <div class="row">
-                                <div class="col-md-5 hidden-xs"><img src="{{ asset('img/' . $product->image) }}"
+                                <div class="col-md-5 hidden-xs"><img src="{{ asset('storage/' . $product->image) }}"
                                                                      alt="..."
                                                                      class="img-responsive" width="150%"/></div>
 
