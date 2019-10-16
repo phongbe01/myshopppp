@@ -51,7 +51,7 @@ class BillService
         $bill->id = $billId;
         $bill->user_id = Auth::user()->id;
         $bill->price = Session::get('cart')->totalPrice;
-        $bill->payDate = date('Y:m:d');
+        $bill->payDate = date('Y-m-d');
         $bill->payAddress = $request->payAddress;
         $this->billRepository->store($bill);
         $this->storeBillProduct($billId);
