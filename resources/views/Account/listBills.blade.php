@@ -1,6 +1,6 @@
 @extends('template.header')
 @section('content')
-    <h1>{{ "Chi tiết giỏ hàng" }}</h1>
+    <h1>{{ "My Bills" }}</h1>
 
     <div class="container">
         <div class="row justify-content-center">
