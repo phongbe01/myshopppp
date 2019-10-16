@@ -44,7 +44,7 @@ class ProductRepository implements ProductsRepositoryInterface
     {
        if (request()->has('image'))
        {
-           $product->image = request()->image->store('img','public');
+           $product->image = request()->image->store('storage','public');
        }
     }
 
