@@ -10,7 +10,7 @@
                         <div class="col-lg-3 col-sm-6">
                             <div class="l_product_item">
                                 <div class="l_p_img">
-                                    <img class="img-fluid" src="{{asset('storage/'.$product->image)}}" alt="">
+                                    <img class="img-fluid" src="{{asset('/'.$product->image)}}" alt="">
                                 </div>
                                 <div class="l_p_text">
                                     <ul>

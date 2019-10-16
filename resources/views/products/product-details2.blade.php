@@ -23,7 +23,7 @@
                     <div class="col-lg-3">
                         <div>
 
-                            <img src="{{asset('storage/'.$product->image)}}"  alt=""  width="250"  data-lazyload="" data-bgposition="center center" data-bgfit="contain" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                            <img src="{{asset('/'.$product->image)}}"  alt=""  width="250"  data-lazyload="" data-bgposition="center center" data-bgfit="contain" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                         </div>
                         <div class="product_details_slider">
                             <div id="product_slider2" class="rev_slider" data-version="5.3.1.6">

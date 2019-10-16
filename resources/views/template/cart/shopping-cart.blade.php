@@ -57,7 +57,7 @@
                                             <td>
                                                 <div class="media">
                                                     <div class="d-flex">
-                                                        <img src="{{asset('storage/' . $product['item']->image)}}" alt="" width="50px">
+                                                        <img src="{{asset('/' . $product['item']->image)}}" alt="" width="50px">
                                                     </div>
                                                     <div class="media-body">
                                                         <a href="{{route('products.show',$product['item']->id)}}">
