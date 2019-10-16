@@ -8,6 +8,8 @@ class Bill extends Model
 {
     protected $guarded = [];
 
+    protected $table = 'bills';
+
     public function user()
     {
         return $this->belongsTo('App\User');
