@@ -68,4 +68,13 @@ class ProductRepository implements ProductsRepositoryInterface
             ->get();
         return $products;
     }
+
+    public function getWomanProduct()
+    {
+        $products = DB::table('productDetail')
+            ->join('products','product_id','=','products.id')
+            ->where('sex','woman')
+            ->get();
+        return $products;
+    }
 }

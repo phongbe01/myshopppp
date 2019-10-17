@@ -60,6 +60,7 @@ Route::get('products/search','ProductController@search')->name('products.search'
 Route::get('products/null-item','ProductController@productNull')->name('products.null');
 Route::get('products/{id}/update','ProductController@updateQty')->name('products.updateQty');
 Route::get('products/men-clothes','ProductController@getMenProduct')->name('products.menclothes');
+Route::get('products/woman-clothes','ProductController@getWomanProduct')->name('products.womanclothes');
 Route::resource('products','ProductController');
 
 Route::resource('customers','CustomerController');

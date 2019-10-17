@@ -1583,17 +1583,17 @@ i:before {
 
 .c_banner_inner {
   text-align: center;
-  padding: 170px 0px;
+  padding: 0px 0px;
 }
 
 .c_banner_inner h3 {
-  color: #fff;
+  color: #0b0b0b;
   font-size: 24px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: .6px;
-  padding-bottom: 5px;
+  padding-bottom: 1px;
 }
 
 .c_banner_inner ul li {
@@ -1603,7 +1603,7 @@ i:before {
 
 .c_banner_inner ul li a {
   font-size: 14px;
-  color: #cccccc;
+  color: #000;
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   position: relative;

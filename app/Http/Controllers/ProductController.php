@@ -136,4 +136,10 @@ class ProductController extends Controller
         $products =$this->productService->getMenProduct();
         return view('products.men-clothes.index',compact('products'));
     }
+
+    public function getWomanProduct()
+    {
+        $products =$this->productService->getWomanProduct();
+        return view('products.woman-clothes.index',compact('products'));
+    }
 }

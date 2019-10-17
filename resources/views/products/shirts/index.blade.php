@@ -1,6 +1,5 @@
 @extends('template.header')
 @section('content')
-        <h2 class="single_c_title">Related Product</h2>
     <header class="shop_header_area">
         <div class="container">
             <table>

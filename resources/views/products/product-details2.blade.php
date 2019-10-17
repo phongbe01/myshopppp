@@ -1,13 +1,13 @@
 @extends('template.header')
 @section('content')
         <!--================Categories Banner Area =================-->
-        <section class="categories_banner_area">
+        <section class="">
             <div class="container">
                 <div class="c_banner_inner">
-                    <h3>simple product Layout</h3>
+                    <h3>Product Detail</h3>
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">{{$product->product_name}}</a></li>
                         <li class="current"><a href="product-details2.blade.php">Simple Product</a></li>
                     </ul>
                 </div>

@@ -38,5 +38,32 @@ class ProductDetailSeederTable extends Seeder
         $detail->sex = 'men';
         $detail->quantity = '100';
         $detail->save();
+
+        $detail = new ProductDetail();
+        $detail->product_id = '7';
+        $detail->size = 'L';
+        $detail->color = 'White';
+        $detail->type = 'Clothes';
+        $detail->sex = 'woman';
+        $detail->quantity = '100';
+        $detail->save();
+
+        $detail = new ProductDetail();
+        $detail->product_id = '8';
+        $detail->size = 'L';
+        $detail->color = 'White';
+        $detail->type = 'Clothes';
+        $detail->sex = 'woman';
+        $detail->quantity = '100';
+        $detail->save();
+
+        $detail = new ProductDetail();
+        $detail->product_id = '9';
+        $detail->size = 'L';
+        $detail->color = 'White';
+        $detail->type = 'Clothes';
+        $detail->sex = 'woman';
+        $detail->quantity = '100';
+        $detail->save();
     }
 }

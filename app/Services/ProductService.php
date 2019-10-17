@@ -64,4 +64,9 @@ class ProductService implements ProductsServiceInterface
     {
         return $this->productRepository->getMenProduct();
     }
+
+    public function getWomanProduct()
+    {
+        return $this->productRepository->getWomanProduct();
+    }
 }
