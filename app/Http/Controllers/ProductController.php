@@ -130,4 +130,10 @@ class ProductController extends Controller
         $qty = $request->get('qty');
         $this->productService->updateQty($id,$qty);
     }
+
+    public function getMenProduct()
+    {
+        $products =$this->productService->getMenProduct();
+        return view('products.men-clothes.index',compact('products'));
+    }
 }

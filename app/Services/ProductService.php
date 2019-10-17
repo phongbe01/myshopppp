@@ -59,4 +59,9 @@ class ProductService implements ProductsServiceInterface
         $this->productRepository->saveData($product);
 
     }
+
+    public function getMenProduct()
+    {
+        return $this->productRepository->getMenProduct();
+    }
 }

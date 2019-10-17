@@ -103,7 +103,7 @@
                 </div>
                 <div class="fillter_l_p_inner">
                     <ul class="fillter_l_p">
-                        <li class="active" data-filter="*"><a href="#">men's</a></li>
+                        <li class="active" data-filter="*"><a href="{{route('products.menclothes')}}">men's</a></li>
                         <li data-filter=".woman"><a href="#">Woman</a></li>
                         <li data-filter=".acc"><a href="#">Accessories</a></li>
                         <li data-filter=".shoes"><a href="#">Shoes</a></li>

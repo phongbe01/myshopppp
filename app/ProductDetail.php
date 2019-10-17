@@ -12,6 +12,6 @@ class ProductDetail extends Model
 
     public function product()
     {
-        return $this->belongsTo('App\Product','products');
+        return $this->belongsTo('App\Product');
     }
 }

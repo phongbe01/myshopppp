@@ -21,6 +21,6 @@ class Product extends Model
 
     public function productsDetail()
     {
-        return $this->hasMany('App\ProductDetail','productDetail');
+        return $this->hasMany('App\ProductDetail');
     }
 }

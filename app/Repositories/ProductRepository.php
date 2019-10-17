@@ -6,6 +6,7 @@ namespace App\Repositories;
 
 use App\Product;
 use App\Services\ProductsServiceInterface;
+use Illuminate\Support\Facades\DB;
 
 class ProductRepository implements ProductsRepositoryInterface
 {
@@ -59,8 +60,12 @@ class ProductRepository implements ProductsRepositoryInterface
         return $products;
     }
 
-    public function updateQty($id)
+    public function getMenProduct()
     {
-
+        $products = DB::table('productDetail')
+            ->join('products','product_id','=','products.id')
+            ->where('sex','men')
+            ->get();
+        return $products;
     }
 }
