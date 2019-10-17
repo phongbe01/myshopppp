@@ -18,4 +18,9 @@ class Product extends Model
     {
         return $this->belongsToMany('App\Bill','billDetails');
     }
+
+    public function productsDetail()
+    {
+        return $this->hasMany('App\ProductDetail','productDetail');
+    }
 }

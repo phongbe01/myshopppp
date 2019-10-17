@@ -9,7 +9,7 @@ class CreateProductColorTable extends Migration
     /**
      * Run the migrations.
      *
-     * @return void
+     * @ void
      */
     public function up()
     {

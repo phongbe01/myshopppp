@@ -15,6 +15,13 @@ class CreatProductDetailTable extends Migration
     {
         Schema::create('productDetail', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->unsignedBigInteger('product_id');
+            $table->string('size');
+            $table->string('color');
+            $table->string('type');
+            $table->string('sex');
+            $table->integer('quantity');
+            $table->foreign('product_id')->references('id')->on('products')->onDelete('cascade');
             $table->timestamps();
         });
     }
@@ -27,5 +34,8 @@ class CreatProductDetailTable extends Migration
     public function down()
     {
         Schema::dropIfExists('productDetail');
+        Schema::table('productDetail', function (Blueprint $table) {
+            $table->dropForeign('product_id');
+        });
     }
 }
