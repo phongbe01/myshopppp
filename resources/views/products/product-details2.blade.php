@@ -72,15 +72,21 @@
                             <h6>Available In <span>Stock</span></h6>
                             <h4>${{number_format($product->price)}}</h4>
                             <p>Curabitur semper varius lectus sed consequat. Nam accumsan dapibus sem, sed lobortis nisi porta vitae. Ut quam tortor, facilisis nec laoreet consequat, malesuada a massa. Proin pretium tristique leo et imperdiet.</p>
-                            <div class="p_color">
-                                <h4 class="p_d_title">color <span>*</span></h4>
+                            <div class="p_color btn-group-toggle">
+                                <h4 class="p_d_title">size <span>*</span></h4>
                                 <ul class="color_list">
-                                    <li><a href="#"></a></li>
-                                    <li><a href="#"></a></li>
-                                    <li><a href="#"></a></li>
-                                    <li><a href="#"></a></li>
-                                    <li><a href="#"></a></li>
-                                    <li><a href="#"></a></li>
+                                    <li><label class="btn btn-outline-primary active">
+                                            <input type="radio" name="options" id="option1" autocomplete="off" checked value="M"> M
+                                        </label>
+                                    </li>
+                                    <li><label class="btn btn-outline-primary active">
+                                            <input type="radio" name="options" id="option1" autocomplete="off" checked value="L"> L
+                                        </label>
+                                    </li>
+                                    <li><label class="btn btn-outline-primary active">
+                                            <input type="radio" name="options" id="option1" autocomplete="off" checked value="XL"> XL
+                                        </label>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="p_color">

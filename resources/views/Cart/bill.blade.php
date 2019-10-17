@@ -63,7 +63,7 @@
                 </div>
                 <div class="form-group">
                     <label for="">Total Price<span>*</span></label>
-                    <input type="text" class="form-control" value="{{number_format($cart->totalPrice)}}">
+                    <input type="text" class="form-control" value="${{number_format($cart->totalPrice)}}">
                 </div>
                 <h3>* Required Filelds</h3>
                 <button type="submit" class="btn btn-success">Submit</button>
