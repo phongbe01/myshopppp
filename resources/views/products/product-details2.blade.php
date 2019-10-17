@@ -197,7 +197,7 @@
                                 <div class="l_p_text">
                                    <ul>
                                         <li class="p_icon"><a href="#"><i class="icon_piechart"></i></a></li>
-                                        <li><a class="add_cart_btn" href="#">Add To Cart </a></li>
+                                        <li><a class="add_cart_btn" href="#">Add To Cart</a></li>
                                         <li class="p_icon"><a href="#"><i class="icon_heart_alt"></i></a></li>
                                     </ul>
                                     <h4>Nike Track Pants</h4>
